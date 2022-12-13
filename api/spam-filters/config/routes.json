@@ -8,6 +8,7 @@
         "policies": []
       }
     },
+    
     {
       "method": "PUT",
       "path": "/spam-filters",
