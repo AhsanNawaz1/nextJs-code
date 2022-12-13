@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "countries",
+  "info": {
+    "name": "Country",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": true
+    },
+    "code": {
+      "type": "string",
+      "unique": true
+    },
+    "capital": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    },
+    "flag": {
+      "type": "string"
+    },
+    "dialling_code": {
+      "type": "string"
+    },
+    "currency": {
+      "type": "json"
+    },
+    "language": {
+      "type": "json"
+    }
+  }
+}
